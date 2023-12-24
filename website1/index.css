@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0d0030;
+    color:#ffeaea;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    background-color: #00448d;
+    position: fixed;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    z-index: 10000;
+}
+
+main {
+    margin: auto 1.1rem auto 2rem;
+}
+
+#first {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+
+.title {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+
+.left b {
+    font-size: 1.3em;
+    font-weight: 800;
+
+}
+
+.des {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+}
+
+.li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.menu {
+    text-decoration: none;
+    color: white;
+}
+
+.menu:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.pic {
+    display: flex;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 15px 10px rgb(0, 0, 0));
+    z-index: 0;
+    position: relative;
+}
+
+.dp {
+    margin-left: 40%;
+}
+
+.hide {
+    display: none;
+}
+
+.leftsection {
+    margin: 40px 23px;
+    font-size: 2.5rem;
+    width: 70%;
+}
+
+.leftsection.div {
+    width: 23px;
+}
+
+.intro {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.name {
+    /* color:blue; */
+    color: #5ab9ea;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+}
+
+.hide {
+    display: none;
+}
+
+.bio {
+    width: 60%;
+}
+
+.heading {
+    margin: 5px;
+    font-size: 40px;
+}
+
+.des {
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#skillDetail {
+    padding: 40px 40px;
+    margin-bottom: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skillD{
+    font-size: 20px;
+    padding: 0px 20px ;
+}
+.skillD p{
+    width :80%;
+    padding-top: 40px;
+}
+
+#second div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+}
+
+#second div:nth-of-type(2) div {
+    width: 80%;
+    height: 80%;
+} 
+
+#third {
+    padding: 40px 20px;
+
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.head {
+    font-size: 1.7em;
+    color:#ffeaea;
+}
+
+.ProjectHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    padding: 5px;
+}
+
+.des {
+    font-size: 19px;
+}
+
+.git {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #010020; */
+    background-color: #00448d;
+    color: #ffffff;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leftFooter {
+    padding: 0 10px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.subFooter {
+    margin: 17px 0;
+    color: white;
+    font-size: 1.6em;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rightFooter {
+    padding: 0 50px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.direct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 23px;
+}
+
+.indirect {
+    /* background-color: #00448d; */
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+.foot {
+    color: #fff;
+}
